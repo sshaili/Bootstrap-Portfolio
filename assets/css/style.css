@@ -34,24 +34,24 @@ h1{
 .collapse ,.navbar-collapse{
     border: none;
 }
-span{
-    background-color: black !important;
-}
+
 a{
     color: #ffffff;
     text-decoration: none;
 }
 
-
 a:hover {
-    color: black !important;
+    font-style: italic;
+    color: white !important;
 }
-
-
-.nav {
-    color: black;
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: aliceblue;
 }
-article {
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:darkgrey;
+}
+#main {
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 30px;
@@ -74,10 +74,7 @@ img{
    margin-right: 10px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+.footer ,.navbar-fixed-bottom {
     width: 100%;
     background-color: #666666;
     color: white;
@@ -149,3 +146,37 @@ img{
     text-align: start;
     height: 130px;
 }
+@media screen and (max-width: 600px) {
+    span{
+        background-color: black !important;
+    }
+    .navbar ,.navbar-inverse,.collapse ,.navbar-collapse{
+        
+        background-color: black;
+        border: none;  
+        
+        
+    }
+    .row{
+        background-color: black;
+        height: 80px;
+        border-bottom: solid #cccccc 2px;
+    }
+    #main {
+        max-width: 600px;
+        background-color:white; 
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h1{
+        background-color: black;
+        margin: 0%;
+        width: 250px;
+        height: 13px;
+        font-size: 20px;
+       
+       
+    }
+    
+  }
