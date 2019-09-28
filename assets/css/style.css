@@ -42,7 +42,7 @@ a{
 
 a:hover {
     font-style: italic;
-    color: white !important;
+    color: #4aaaa5 !important;
 }
 .navbar-inverse .navbar-toggle {
     border-color: #333;
