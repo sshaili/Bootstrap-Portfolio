@@ -1,0 +1,140 @@
+body{
+   background-image: url(../images/gravel.png);
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.row{
+    background-color: #ffffff;
+    max-width: auto;
+    height: 80px;
+    border-bottom: solid #cccccc 2px;
+}
+
+h1{
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    width: 250px;
+    height: 80px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.navbar ,.navbar-inverse{
+    height: 78px;
+    padding-top: 15px;
+    background-color: #ffffff;
+    border: none;  
+    
+}
+.collapse ,.navbar-collapse{
+    border: none;
+}
+span{
+    background-color: black !important;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: black !important;
+}
+
+
+.nav {
+    color: black;
+}
+article {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 960px;
+    background-color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutme , #Contact{
+    color: #4aaaa5;
+    font-weight: bold;
+}
+img{
+    margin-bottom: 20px;
+   height: 320px;
+   width: 200px;
+   float: left;
+   margin-right: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid #4aaaa5 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#portfolio{
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    max-width: 960px;
+    background-color:white;
+    height: 650px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.image:hover{
+    border-radius: 50%;    
+    box-sizing: border-box;
+    border: 1px solid #4aaaa5;
+}
+.container {
+    position: relative;
+    font-family: Arial;
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    
+  }
+  h2{
+      margin-top: 0px;
+      font-size: 20px;
+  }
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    font-size: 13px;
+    background-color: #4aaaa5;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    padding-top: 3px;
+    
+
+}
+
